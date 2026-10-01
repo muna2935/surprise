@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Wish 🕯️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cake-page">
+
+    <div id="confetti"></div>
+
+    <main class="content">
+
+        <h1>
+            Make a Wish! ✨
+        </h1>
+
+        <p>
+            Close your eyes, make a wish,
+            and blow out the candles.
+        </p>
+
+        <div class="cake-wrap">
+
+            <!-- Flames -->
+            <div class="flames" id="flames">
+
+                <span>🔥</span>
+                <span>🔥</span>
+                <span>🔥</span>
+                <span>🔥</span>
+                <span>🔥</span>
+
+            </div>
+
+            <!-- Candles -->
+            <div class="candles">
+
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+
+            </div>
+
+            <!-- Cake -->
+            <div class="cake-top">
+                🍓 🍓 🍓
+            </div>
+
+            <div class="cake-body">
+                <span>HAPPY BIRTHDAY</span>
+            </div>
+
+            <div class="cake-bottom"></div>
+
+        </div>
+
+        <p id="candleMessage" class="status">
+            The candles are waiting for your wish... 💫
+        </p>
+
+        <button
+            class="btn"
+            id="blowBtn"
+            onclick="blowCandles()">
+
+            Blow Out Candles 💨
+
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

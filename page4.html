@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut the Cake 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cake-page">
+
+    <div id="confetti"></div>
+
+    <main class="content">
+
+        <h1>
+            Now, Let's Cut the Cake! 🎂
+        </h1>
+
+        <p>
+            One slice of happiness coming right up!
+        </p>
+
+        <div class="cut-cake" id="cutCake">
+
+            <!-- Left cake slice -->
+            <div class="slice left-slice">
+                🍰
+            </div>
+
+            <!-- Right cake slice -->
+            <div class="slice right-slice">
+                🍰
+            </div>
+
+            <!-- Main cake -->
+            <div class="cake-round">
+
+                <div class="icing">
+                    ♥ ♥ ♥ ♥ ♥
+                </div>
+
+                <div class="cake-text">
+                    CELEBRATE!
+                </div>
+
+            </div>
+
+            <!-- Knife -->
+            <div class="knife" id="knife">
+                🔪
+            </div>
+
+        </div>
+
+        <p id="cutMessage" class="status">
+            Click the button to cut the cake! ✨
+        </p>
+
+        <button
+            class="btn"
+            id="cutBtn"
+            onclick="cutCake()">
+
+            Cut the Cake 🎂
+
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
